@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="copyright" content="©Mateus Azevedo">
+    <title>Formulário de cadastro!</title>
+</head>
+<body>
+    <!--HEADER-->
+
+    <div id="header">
+        <h1 class="title">Cadastro</h1>
+        <p class="subtitle">Preencha os dados abaixo</p>
+    </div>
+
+    <!--FORM-->
+    <div>
+        <form action="">
+            <div class="field">
+                <h3 class="coment">Dados pessoais</h3>
+                <div>
+                    <input type="text" name="name" id="name" required>
+                    <label for="name">Nome</label>
+                </div>
+                <div>
+                    <input type="text" name="lastname" id="lastname" required>
+                    <label for="lastname">Sobrenome</label>
+                </div>
+                <div>
+                    <input type="date" id="date" required>
+                    <label for="date">Data de Nascimento</label>
+                </div>
+                <div>
+                    <input type="tel" id="phone" required/>
+                    <label for="phone">Número de telefone</label>
+                </div>
+                <div>
+                    <input type="email" name="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div>
+                    <input type="password" name="pass" id="pass" required>
+                    <label for="pass">Senha</label>
+                </div>
+                <div>
+                    <select name="country" id="country" required>
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="se">Sergipe</option>
+                        <option value="to">Tocatins</option>
+                        <option value="df">Distrito Federal</option>
+                    </select>
+                    <label for="country">Estado</label>
+                </div>
+            </div>
+            <br>
+            <h3 class="coment">Informações profissionais</h3>
+            <div class="field">
+                <fieldset class="group">
+                    <div>
+                        <label for=""><b>Qual(is) linguagem(ns) de programação você conhece?</b></label>
+                        <div>
+                            <label for="lang1">HTML</label>
+                            <input type="checkbox" name="language-1" id="lang1" value="html">
+                        </div>
+                        <div>
+                            <label for="lang2">CSS</label>
+                            <input type="checkbox" name="language-2" id="lang2" value="css">
+                        </div>
+                        <div>
+                            <label for="lang3">PHP</label>
+                            <input type="checkbox" name="language-3" id="lang3" value="php">
+                        </div>
+                        <div>
+                            <label for="lang4">JAVASCRIPT</label>
+                            <input type="checkbox" name="language-4" id="lang4" value="js">
+                        </div>
+                        <div>
+                            <label for="lang5">C++</label>
+                            <input type="checkbox" name="language-5" id="lang5" value="c++">
+                        </div>
+                    </div>
+                </fieldset>
+            </div>
+
+
+            <div class="field">
+                <fieldset class="group">
+                    <label for=""><b>Em qual área de desenvolvimento você atua?</b></label>
+                    <div>
+                        <label for="office1">Desenvolvedor Front-end</label>
+                        <input type="radio" name="office" id="office1" value="frontend">
+                    </div>
+                    <div>
+                        <label for="office2">Desenvolvedor Back-end</label>
+                        <input type="radio" name="office" id="office2" value="backend">
+                    </div>
+                    <div>
+                        <label for="office3">Desenvolvedor Full-stack</label>
+                        <input type="radio" name="office" id="office3" value="fullstack">
+                    </div>
+                </fieldset>
+            </div>
+
+
+            <div class="field">
+                <fieldset class="group">
+                    <label for="">Conte um pouco da sua experiência</label>
+                    <br>
+                    <textarea name="experience" id="xp" cols="36" rows="6" required></textarea>
+                </fieldset>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
