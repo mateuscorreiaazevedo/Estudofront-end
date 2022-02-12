@@ -10,21 +10,23 @@
     <!--HEADER-->
     <div id="header">
         <h1 class="title">Cadastro</h1>
-        <p class="subtitle">Lorem ipsum</p>
+        <p class="subtitle">Preencha os dados abaixo</p>
         <br>
     </div>
     <!--FORM-->
     <div id="form">
-        <form action="">
+        <form action="pag2.html" method="get">
             <div class="camp">
-                <label for="name"><strong>Nome:</strong></label>
-                <input type="text" name="name" id="name" required/>
-                <label for="last-name"><strong>Sobrenome:</strong></label>
-                <input type="text" name="last-name" id="last-name" required/>
-                <label for="email"><strong>Email:</strong></label>
-                <input type="text" name="email" id="email" required/>
+                <label for="name"><b>Nome:</b></label>
+                <input type="text" name="name" id="name" required>
+                <label for="last-name"><b>Sobrenome:</b></label>
+                <input type="text" name="last-name" id="last-name" required>
             </div>
-            <button type="submit" class="btn btn-submit">Enviar</button>
+            <div class="camp">
+                <label for="email"><b>Email:</b></label>
+                <input type="email" name="email" id="email" required>
+                <button type="submit" class="btn btn-primary">Seguinte</button>
+            </div>
         </form>
     </div>
 </body>
