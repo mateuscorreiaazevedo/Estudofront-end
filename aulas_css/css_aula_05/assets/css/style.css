@@ -1,0 +1,84 @@
+body{
+    background-color: #A5FEDD;
+}
+header{
+   
+    background-color: #A5BFFE;
+    padding-top: 2em;
+    margin-top: -2em;
+    margin-left: -1em;
+    margin-right: -1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+}
+.menu ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heading{
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+#title{
+    font-weight: bold;
+    color: #03045E;
+    margin-bottom: -10px;
+}
+#subtitle{
+    font-style: italic;
+}
+.menu{
+    color: #03045E;
+    background-color: #D29D2B;
+    margin-top: 1em;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    border-radius: 1em;
+    border: 1em;
+    border-color: #495371;
+
+}
+.btn-menu{
+    text-align: center;
+    padding: 10px;
+    padding-left: 11.6rem;
+    padding-right: 11rem;
+    background-color: transparent;
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    display: block;
+    border-radius: 10px;
+
+}
+.btn-menu:hover{
+    color: #fff;
+}
+.text h2, .txt h3{
+    font-style: italic;
+    background-color: #03045E;
+    border-radius: 20px;
+    padding-left: 2em;
+    color: #fff;
+}
+.txt-1 h3{
+    text-align: right;
+    padding-right: 2em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.txt-2 h3{
+    padding-right: 2em;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.txt-1 h3:hover, .txt-2 h3:hover{
+    background-color: #A5BFFE;
+    color: #03045E;
+}
