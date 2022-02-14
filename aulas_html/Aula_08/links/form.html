@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 6</title>
+</head>
+<body>
+    <!--CABEÇALHO-->
+    <div>
+        <h1>formulário</h1>
+        <p>
+            Teste e estudo de formulário:
+        </p>
+        <button>
+            <a href="../index.html">Voltar</a>
+        </button>
+    </div>
+    <!--CABEÇALHO-->
+    <!--FORMULÁRIO-->
+    <div>
+        <form action="">
+            <div>
+                <label for="name">Nome:
+                    <input type="text" id="name" required />
+                </label>
+            </div>
+            <div>
+                <label for="laste-name">Sobrenome:
+                    <input type="text" id="last-name" required />
+                </label>
+            </div>
+            <div>
+                <label for="email">Email:
+                    <input type="email" id="email" required />
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="radio" name="price" value="150"> R$150,00
+                </label>
+                <label>
+                    <input type="radio" name="price" value="200"> R$200,00
+                </label>
+                <label>
+                    <input type="radio" name="price" value="250"> R$250,00
+                </label>
+                <label>
+                    <input type="radio" name="price" value="300"> R$300,00
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="date" name="date" value="">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" name="filter" value="sp"> São Paulo
+                </label>
+                <label>
+                    <input type="checkbox" name="filter" value="ba"> Bahia
+                </label>
+                <label>
+                    <input type="checkbox" name="filter" value="rj"> Rio de Janeiro
+                </label>
+                <label>
+                    <input type="checkbox" name="filter" value="brl"> Brasília
+                </label>
+            </div>
+            <div>
+                <label for="country">
+                    Selecione o Estado
+                    <select name="country" id="country">
+                        <option value="" selected disabled>Selecione</option>
+                        <option value="sp" >São Paulo</option>
+                        <option value="ba" >Bahia</option>
+                        <option value="rj" >Rio de Janeiro</option>
+                        <option value="mg" >Minas Gerais</option>
+                        <option value="pe" >Pernambuco</option>
+                        <option value="rs" >Rio Grande do Sul</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <p>Deixe seu Comentário</p>
+                    <textarea name="coment" cols="30" rows="10" ></textarea>
+                </label>
+            </div>
+            <input type="submit" />
+        </form>
+    </div>
+    <!--FORMULÁRIO-->
+</body>
+</html>

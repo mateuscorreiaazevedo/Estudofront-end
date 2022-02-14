@@ -1,0 +1,33 @@
+body{
+    background-color: aqua;
+}
+
+
+
+header{
+    background-color: blueviolet;
+    padding: 2%;
+}
+
+
+
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25%;
+margin-right: 25%;
+margin-top: -4%;
+}
+.menu{
+    background-color: #ff4500;
+
+
+
+
+
+}
+.btn-menu{
+    background: white;
+    text-transform: lowercase;
+    font-weight: bold;
+    font-size: 26px;
+}
