@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+/*
+font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+.headbar{
+    background: linear-gradient(68.15deg, #8E5D52 16.62%, #2F2325 85.61%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logo{
+    height: 72px;
+}
+.logo:hover{
+}
+.navbar{
+    
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+.btn-bar{
+    color: #FFF2E7;
+    opacity: 60%;
+    background: transparent;
+    padding: 8px 24px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Sarala', sans-serif;
+}
+.btn-bar:hover{
+    background: #8E5D52;
+    opacity: 100%;
+}
+.content{
+    border-top: 4px double  #FFF2E7;
+    margin-bottom: 48px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.coll-text{
+    padding: 0 12px 0 12px;
+    background: linear-gradient(#2F2325 , transparent);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.coll-text h1{
+    text-transform: capitalize;
+    font-family: 'Righteous', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    color: #FFF2E7;
+}
+.coll-text p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+}
+.btn-add{
+    background-color: #ECD6C4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+
+    text-transform: capitalize;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #2F2325;
+}.btn-add:hover{
+    background: #ecd6c4bb; 
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+.coll-img{
+    height: 530px;
+}
+.coll-img:hover{
+    opacity: 30%;
+}
+
+.text-box{
+    font-family: 'Sarala', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ECD6C4;
+    margin-top: 48px;
+}
+.box-title{
+    font-family: 'Righteous', cursive;
+    padding-top: 32px;
+    border-top: 1px #ECD6C4 solid;
+    padding-bottom: px;
+    font-size: 26px;
+}
+.text-box p{
+    margin-top: 0;
+    margin: 12px;
+    font-size: 18px;
+}
+.bold{
+    font-style: italic;
+    font-size: 20px;
+}
+.final-page{
+    display: flex;
+    border-top: 0.1px solid #ECD6C4;
+    padding: 32px;
+    align-items: center;
+}
+.img-footer{
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+}
