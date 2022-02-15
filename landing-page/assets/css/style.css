@@ -49,8 +49,7 @@ body{
     font-family: 'Sarala', sans-serif;
 }
 .btn-bar:hover{
-    background: #8E5D52;
-    opacity: 100%;
+    background: rgba(142, 93, 82, 20%);
 }
 .content{
     border-top: 4px double  #FFF2E7;
@@ -83,7 +82,7 @@ body{
     color: #ECD6C4;
 }
 .btn-add{
-    background-color: #ECD6C4;
+    background-color: rgba(255, 242, 231, 10%);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     width: 180px;
     height: 60px;
@@ -94,9 +93,10 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 22px;
-    color: #2F2325;
+    color: #ECD6C4;
 }.btn-add:hover{
     background: #ecd6c4bb; 
+    color: #2F2325;
     box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.3);
     font-weight: bold;
 }
@@ -132,13 +132,24 @@ body{
     font-size: 20px;
 }
 .final-page{
+
     display: flex;
-    border-top: 0.1px solid #ECD6C4;
+    border-top: 4px double #ECD6C4;
     padding: 32px;
     align-items: center;
 }
 .img-footer{
-    height: 48px;
+    height: 36px;
     display: block;
     margin: 0 auto;
+}
+.img-footer:hover{
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+    padding: 4px 240px;
+    border: none;
+    border-radius: 5px;
+    background: rgba(236, 214, 196, 10%);
+
 }
