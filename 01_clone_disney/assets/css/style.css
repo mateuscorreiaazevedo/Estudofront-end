@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url(../fonts/avenir-roman.ttf) format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../../images/background-img.jpg) no-repeat top center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 76px;
+}
+.logo{
+    max-width: 400px;
+}
+.initial-page{
+}
+h3{
+    font-family: "avenir roman", sans-serif;
+    color: #f9f9f9;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: bold;
+    letter-spacing: normal;
+    margin: 0px 0px 24px;
+    text-align: center;
+}
+.price-1 a{
+    background: #0063e5;
+    color: #f9f9f9;
+    text-decoration: none;
+    font-family: "Avenir Roman", sans-serif;
+    text-transform: uppercase;
+}
