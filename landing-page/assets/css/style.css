@@ -30,11 +30,6 @@ body{
 .logo{
     height: 72px;
 }
-.logo:hover{
-}
-.navbar{
-    
-}
 .navbar ul{
     list-style: none;
     display: flex;
