@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Sarala:wght@400;700&family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+/* font-family: 'Dosis', sans-serif;
+font-family: 'Sarala', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+}
+
+body {
+    background: linear-gradient(#f2f2f2, #A3C4F3) no-repeat center;
+    height: 100%;
+    width: 100%;
+}
+
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+}
+
+/* CABEÇALHO - HEADER */
+header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background: rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 43px;
+}
+
+.btn-bar {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.btn-bar:hover {
+    color: #FBF8CC;
+}
+
+/* PAGINA - PAGE*/
+main {
+    margin: 0 24px;
+    display: flex;
+}
+
+.text-info {
+    width: 40%;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.container-info {
+    display: flex;
+}
+
+.form {
+    display: flex;
+}
+.office{
+    align-items: center;
+}
