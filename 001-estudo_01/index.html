@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="br">
 
 <head>
     <meta charset="UTF-8">
@@ -13,13 +13,12 @@
     <div class="root">
         <header>
             <div>
-                <h1><a class="logo" href="#">logomarca</a></h1>
+                <h1><a class="logo" href="#">rede social</a></h1>
             </div>
             <nav class="navbar">
                 <ul>
                     <li><a class="btn-bar" href="#">home</a></li>
-                    <li><a class="btn-bar" href="#">sobre</a></li>
-                    <li><a class="btn-bar" href="#">serviços</a></li>
+                    <li><a class="btn-bar" href="#">pesquisar</a></li>
                     <li><a class="btn-bar" href="#">fotos</a></li>
                     <li><a class="btn-bar" href="#">vídeos</a></li>
                     <li><a class="btn-bar" href="#">contato</a></li>
@@ -39,126 +38,141 @@
                 </section>
                 <section class="form">
                     <form action="">
-                        <div class="title-form">
-                            <h2>Formulário</h2>
+                        <div class="container-form">
+                            <div>
+                                <div class="title-form">
+                                    <h2>Formulário</h2>
+                                </div>
+                                <div class="form-1">
+                                    <h3>Dados Pessoais</h3>
+                                    <div class="personal-data">
+                                        <label for="name">
+                                            <p>Nome</p>
+                                        </label>
+                                        <input type="text" name="name" id="name" required>
+                                    </div>
+                                    <div class="personal-data">
+                                        <label for="last-name">
+                                            <p>Sobrenome</p>
+                                        </label>
+                                        <input type="text" name="last-name" id="last-name" required>
+                                    </div>
+                                    <div class="personal-data">
+                                        <label for="email">
+                                            <p>Email</p>
+                                        </label>
+                                        <input type="email" name="email" id="email" required>
+                                    </div>
+                                    <div class="personal-data">
+                                        <label for="cpf">
+                                            <p>CPF</p>
+                                        </label>
+                                        <input type="text" name="cpf" id="cpf" required>
+                                    </div>
+                                    <div class="personal-data">
+                                        <label for="address">
+                                            <p>Endereço</p>
+                                        </label>
+                                        <input type="text" name="address" id="address" required>
+                                    </div>
+                                    <div class="personal-data">
+                                        <label for="country">
+                                            <p>Estado</p>
+                                        </label>
+                                        <select name="country" id="country" required>
+                                            <option selected disabled value="">Selecione</option>
+                                            <option value="ac">Acre</option>
+                                            <option value="al">Alagoas</option>
+                                            <option value="ap">Amapá</option>
+                                            <option value="am">Amazonas</option>
+                                            <option value="ba">Bahia</option>
+                                            <option value="ce">Ceará</option>
+                                            <option value="es">Espírito Santo</option>
+                                            <option value="go">Goiás</option>
+                                            <option value="ma">Maranhão</option>
+                                            <option value="mt">Mato Grosso</option>
+                                            <option value="ms">Mato Grosso do Sul</option>
+                                            <option value="mg">Minas Gerais</option>
+                                            <option value="pa">Pará</option>
+                                            <option value="pb">Paraíba</option>
+                                            <option value="pr">Paraná</option>
+                                            <option value="pe">Pernambuco</option>
+                                            <option value="pi">Piauí</option>
+                                            <option value="rj">Rio de Janeiro</option>
+                                            <option value="rn">Rio Grande do Norte</option>
+                                            <option value="rs">Rio Grande do Sul</option>
+                                            <option value="ro">Rondônia</option>
+                                            <option value="rr">Roraima</option>
+                                            <option value="sc">Santa Catarina</option>
+                                            <option value="sp">São Paulo</option>
+                                            <option value="se">Sergipe</option>
+                                            <option value="to">Tocatins</option>
+                                            <option value="df">Distrito Federal</option>
+                                        </select>
+                                    </div>
+                                    <div class="personal-data">
+                                        <label for="phone">
+                                            <p>Telefone</p>
+                                        </label>
+                                        <input type="tel" name="phone" id="phone" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box">
+
+
+                                <div class="form-2">
+                                    <h3>
+                                        Dados profissionais
+                                    </h3>
+                                    <div class="office" required>
+                                        <h4>Qual cargo a se candidatar?</h4>
+                                        <div>
+                                            <input type="radio" name="office" id="frontend" value="frontend">
+                                            <label for="frontend">Dev. Front-end</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="office" id="backend" value="backend">
+                                            <label for="backend">Dev. Back-end</label>
+                                        </div>
+                                        <div>
+                                            <input type="radio" name="office" id="fullstack" value="fullstack">
+                                            <label for="fullstack">Dev. Full-stack</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="form-3">
+                                        <div class="field">
+                                            <label for="experience">
+                                                <h3>Conte-nos as suas experiências com a área que está se candidatando:
+                                                </h3>
+                                            </label>
+                                            <textarea name="experience" id="experience" cols="30" rows="10"
+                                                required></textarea>
+                                        </div>
+                                    </div>
+                                    <button class="btn-submit" type="submit">Enviar</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="box">
-                            <div class="form-part-1">
-                                <h3>Dados Pessoais</h3>
-                                <div class="personal-data">
-                                    <label for="name">
-                                        <p>Nome</p>
-                                    </label>
-                                    <input type="text" name="name" id="name" required>
-                                </div>
-                                <div class="personal-data">
-                                    <label for="last-name">
-                                        <p>Sobrenome</p>
-                                    </label>
-                                    <input type="text" name="last-name" id="last-name" required>
-                                </div>
-                                <div class="personal-data">
-                                    <label for="email">
-                                        <p>Email</p>
-                                    </label>
-                                    <input type="email" name="email" id="email" required>
-                                </div>
-                                <div class="personal-data>
-                                        <label for=" cpf">
-                                    <p>CPF</p></label>
-                                    <input type="text" name="cpf" id="cpf" required>
-                                </div>
-                                <div class="personal-data">
-                                    <label for="address">
-                                        <p>Endereço</p>
-                                    </label>
-                                    <input type="text" name="address" id="address" required>
-                                </div>
-                                <div class="personal-data">
-                                    <label for="country">
-                                        <p>Estado</p>
-                                    </label>
-                                    <select name="country" id="country">
-                                        <option value="" selected disabled>Selecione</option>
-                                        <option value="ac">Acre</option>
-                                        <option value="al">Alagoas</option>
-                                        <option value="ap">Amapá</option>
-                                        <option value="am">Amazonas</option>
-                                        <option value="ba">Bahia</option>
-                                        <option value="ce">Ceará</option>
-                                        <option value="es">Espírito Santo</option>
-                                        <option value="go">Goiás</option>
-                                        <option value="ma">Maranhão</option>
-                                        <option value="mt">Mato Grosso</option>
-                                        <option value="ms">Mato Grosso do Sul</option>
-                                        <option value="mg">Minas Gerais</option>
-                                        <option value="pa">Pará</option>
-                                        <option value="pb">Paraíba</option>
-                                        <option value="pr">Paraná</option>
-                                        <option value="pe">Pernambuco</option>
-                                        <option value="pi">Piauí</option>
-                                        <option value="rj">Rio de Janeiro</option>
-                                        <option value="rn">Rio Grande do Norte</option>
-                                        <option value="rs">Rio Grande do Sul</option>
-                                        <option value="ro">Rondônia</option>
-                                        <option value="rr">Roraima</option>
-                                        <option value="sc">Santa Catarina</option>
-                                        <option value="sp">São Paulo</option>
-                                        <option value="se">Sergipe</option>
-                                        <option value="to">Tocatins</option>
-                                        <option value="df">Distrito Federal</option>
-                                    </select>
-                                </div>
-                                <div class="personal-data">
-                                    <label for="phone">
-                                        <p>Telefone</p>
-                                    </label>
-                                    <input type="tel" name="phone" id="phone" required>
-                                </div>
-                            </div>
-                            <div class="form-pt-2">
-                                <h3>Dados profissionais</h3>
-                                <div class="office">
-                                    <h4>Qual cargo a se candidatar?</h4>
-                                    <div>
-                                        <input type="radio" name="office" id="frontend" value="frontend" checked>
-                                        <label for="frontend">Desenvolvedor Front-end</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" name="office" id="backend" value="backend">
-                                        <label for="backend">Desenvolvedor Back-end</label>
-                                    </div>
-                                    <div>
-                                        <input type="radio" name="office" id="fullstack" value="fullstack">
-                                        <label for="fullstack">Desenvolvedor Full-stack</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-                            <div class="form-pt-3">
-                                <fieldset class="field">
-                                    <label for="experience">
-                                        <h3>Conte-nos as suas experiências com a área que está se candidatando</h3>
-                                    </label>
-                                    <textarea name="experience" id="experience" cols="30" rows="10"></textarea>
-                                </fieldset>
-                            </div>
-
                     </form>
                 </section>
             </article>
         </main>
         <footer>
+            <div class="address">
+                <p>Rua Lorem Ipsum</p>
+                <p>Cidade Qualquer</p>
+                <p>Brasil</p>
+                <p>Contato: 555-333-111</p>
+            </div>
             <nav class="contact">
                 <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Whatsapp</a></li>
-                    <li><a href="#">Youtube</a></li>
-                    <li><a href="#">Facebook</a></li>
+                    <li><a class="btn-contact" href="#">Instagram</a></li>
+                    <li><a class="btn-contact" href="#">Whatsapp</a></li>
+                    <li><a class="btn-contact" href="#">Youtube</a></li>
+                    <li><a class="btn-contact" href="#">Facebook</a></li>
                 </ul>
             </nav>
         </footer>

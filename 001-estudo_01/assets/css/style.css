@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&family=Sarala:wght@400;700&family=Ubuntu:ital,wght@0,300;0,700;1,300;1,700&display=swap');
 
-/* font-family: 'Dosis', sans-serif;
+/* 
+font-family: 'Dosis', sans-serif;
 font-family: 'Sarala', sans-serif;
 font-family: 'Ubuntu', sans-serif; */
 
@@ -9,13 +10,14 @@ font-family: 'Ubuntu', sans-serif; */
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Sarala', sans-serif;
+    list-style: none;
 }
 
 body {
-    background: linear-gradient(#f2f2f2, #A3C4F3) no-repeat center;
+    background: linear-gradient(-19.45deg, #f2f2f2, #A3C4F3) no-repeat center;
     height: 100%;
     width: 100%;
+    font-family: sans-serif;
 }
 
 .root {
@@ -33,23 +35,24 @@ header {
     background: rgba(0, 0, 0, 0.2);
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10px;
     text-transform: uppercase;
+    font-family: 'Sarala', sans-serif;
 }
 
-.logo{
+.logo {
     color: #000;
 }
-.logo:hover{
+
+.logo:hover {
     color: #FBF8CC;
 }
 
 .navbar ul {
-    list-style: none;
+
     display: flex;
     align-items: center;
     justify-content: space-around;
-    gap: 43px;
+    gap: 36px;
 }
 
 .btn-bar {
@@ -59,7 +62,7 @@ header {
 }
 
 .btn-bar:hover {
-    color: #FBF8CC;
+    color: #F1C0E8;
 }
 
 /* PAGINA - PAGE*/
@@ -68,11 +71,126 @@ main {
 }
 
 .text-info {
-    width: 40%;
+    width: 48%;
     text-align: justify;
     margin-right: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
 }
 
-.container-info {
+.container-info, .container-form {
     display: flex;
+}
+
+/* FORMULÁRIO - FORM */
+.form {
+    font-family: 'Sarala', sans-serif;
+}
+
+.box {
+    display: flex;
+    margin: 0 10px;
+    align-items: center;
+}
+
+.form-1 input {
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    background: #f2f2f2;
+}
+
+.form-1 input:hover, #country:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.form-1 h3, .form-2 h3 {
+    font-size: medium;
+    margin: 10px 0;
+}
+
+.form-2 {
+    margin: 0 5px;
+}
+
+.office label {
+    font-size: 14px;
+}
+
+.form-2 label:hover {
+    font-weight: medium;
+}
+
+.form-3 h3 {
+    font-size: medium;
+}
+
+.personal-data input, .personal-data select {
+    width: 120px;
+    height: 26px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#experience {
+    width: 100%;
+    size: block;
+    border-radius: 5px;
+}
+
+.btn-submit {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background: #FBF8CC;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Dosis', sans-serif;
+    font-size: large;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-submit:hover {
+    background: rgba(251, 0, 0, 0.1);
+}
+
+/* RODAPÉ - FOOTER */
+footer {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+.address {
+    text-align: justify;
+    font-size: 12px;
+}
+
+footer:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #FBF8CC;
+}
+
+.contact ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 1px;
+}
+
+.btn-contact {
+    text-transform: uppercase;
+    color: #000;
+
+}
+
+.btn-contact:hover {
+    color: #FBF8CC;
+    font-weight: bold;
 }
