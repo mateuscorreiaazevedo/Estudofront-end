@@ -30,11 +30,18 @@ header {
     height: 50px;
     width: 100%;
     display: flex;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(0, 0, 0, 0.2);
     align-items: center;
     justify-content: space-around;
     margin-bottom: 10px;
     text-transform: uppercase;
+}
+
+.logo{
+    color: #000;
+}
+.logo:hover{
+    color: #FBF8CC;
 }
 
 .navbar ul {
@@ -58,7 +65,6 @@ header {
 /* PAGINA - PAGE*/
 main {
     margin: 0 24px;
-    display: flex;
 }
 
 .text-info {
@@ -69,11 +75,4 @@ main {
 
 .container-info {
     display: flex;
-}
-
-.form {
-    display: flex;
-}
-.office{
-    align-items: center;
 }
