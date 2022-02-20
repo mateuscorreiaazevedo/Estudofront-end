@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position - static, relative, absolut e fixed</title>
+    <style>
+        .container {
+            background: violet;
+            color: #fff;
+            margin: 0;
+            /* Static */
+            position: static;
+            margin-bottom: 0;
+        }
+
+        .box {
+            background: red;
+            color: #fff;
+            /* RELATIVE */
+            position: relative;
+            top: 12px;
+            botton: 20px;
+            width: 120px;
+        }
+        .pai{
+            background: blueviolet;
+            color: #fff;
+            font-weight: bold;
+            margin: 40px 0;
+            position: relative;
+            height: 150px;
+        }
+        .filho{
+            background: #000;
+            position: absolute;
+            bottom: 0px;
+            width: 250px;
+            margin-left: 125px;
+        }
+        .fixed{
+            background: gray;
+            margin: 0;
+            height: 60px; 
+            position: fixed;
+            top: 0;
+            z-index: 999;
+        }
+    </style>
+</head>
+
+<body>
+
+ <header>
+    <div class="fixed">
+        <h1>Texto fixed</h1>
+    </div>
+ </header>
+    <div class="container">
+        <p>Texto 1</p>
+        <div class="box">
+            <p>texto 2</p>
+        </div>
+    </div>
+    <br>
+    <div class="pai">
+        texto 1
+        <div class="filhote">
+            texto 2
+        </div>
+        <div class="filho">
+            texto 4
+        </div>
+    </div>
+    <div class="container">
+        <p>Texto 1</p>
+        <div class="box">
+            <p>texto 2</p>
+        </div>
+    </div>
+    <br>
+    <div class="pai">
+        texto 1
+        <div class="filhote">
+            texto 2
+        </div>
+        <div class="filho">
+            texto 4
+        </div>
+    </div>
+    <div class="container">
+        <p>Texto 1</p>
+        <div class="box">
+            <p>texto 2</p>
+        </div>
+    </div>
+    <br>
+    <div class="pai">
+        texto 1
+        <div class="filhote">
+            texto 2
+        </div>
+        <div class="filho">
+            texto 4
+        </div>
+    </div>
+    <div class="container">
+        <p>Texto 1</p>
+        <div class="box">
+            <p>texto 2</p>
+        </div>
+    </div>
+    <br>
+    <div class="pai">
+        texto 1
+        <div class="filhote">
+            texto 2
+        </div>
+        <div class="filho">
+            texto 4
+        </div>
+    </div>
+    <div class="container">
+        <p>Texto 1</p>
+        <div class="box">
+            <p>texto 2</p>
+        </div>
+    </div>
+    <br>
+    <div class="pai">
+        texto 1
+        <div class="filhote">
+            texto 2
+        </div>
+        <div class="filho">
+            texto 4
+        </div>
+    </div>
+</body>
+
+</html>
