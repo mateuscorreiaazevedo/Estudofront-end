@@ -32,7 +32,7 @@ body {
 
 .navbar ul li {
     margin: 0 1em;
-    padding: 1em;
+    padding: 16px;
 }
 
 .btn-nav {
@@ -59,27 +59,28 @@ body {
 
 #home {
     position: relative;
-    background: url(https://www.liradosartistas.com.br/811d263020c15ae964f8.jpg) no-repeat center center/cover fixed;
+    background: url(https://www.liradosartistas.com.br/811d263020c15ae964f8.jpg) no-repeat center/cover fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    height: 100vh;
-    width: 100%;
+    align-content: center;
     scroll-snap-align: center;
-
+    height: 100vh;
+    text-align: center;
 }
+
 /* PERGUNTAR MARCOS ISSO!! */
 #home::before {
     content: '';
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
+
 /* PERGUNTAR MARCOS SOBRE ISSO! */
 .logo {
     position: relative;
@@ -92,6 +93,7 @@ body {
     height: 100%;
     padding-bottom: 16px;
 }
-.logo h1{
+
+.logo h1 {
     font-size: 48px;
 }
