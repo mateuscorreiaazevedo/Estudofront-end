@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo</title>
+    <style>
+        body{
+            background: red;
+            color: #fff;
+        }
+        .body{
+            font-size: 50px;
+            text-transform: capitalize;
+        }
+
+
+
+        @media (max-width: 980px) {
+            body{
+                background: blue;
+            }
+            .body{
+                font-size: 26px;
+                background: blue;
+                text-transform: uppercase;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="body">
+        <p>texto</p>
+    </div>
+
+</body>
+</html>
